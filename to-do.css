@@ -1,0 +1,75 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: #333;
+    color:#fff;
+}
+.header{
+    text-align: center;
+    padding:1rem 0;
+}
+.msg{
+    padding-bottom:0.5rem;
+
+}
+.box{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.box input{
+    height:2rem;
+    width:20rem;
+   font-size: 15px;
+  
+}
+.box ::placeholder{
+    font-weight: normal;
+}
+.box button{
+    height: 2rem;
+    width:8rem;
+    font-size: 15px;
+    font-weight:400;
+    color: #fff;
+    background-color: #333;
+}
+select{
+    height: 2rem;
+    width:8rem;
+    margin-left: 0.5rem;
+    background-color: #f2f2f2;  
+}
+.todo-container{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    min-width: 300px;
+}
+.todo {
+   list-style: none;
+   margin: 1rem;
+   background: #fff;
+   padding:0.2rem;
+   display: flex;
+   width: 300px;
+   justify-content: space-between;
+   color: #000;
+}
+.todo li{
+    flex: 1;
+}
+.todo button{
+    margin:0 0.2rem;
+    padding:0.2rem 0.4rem;
+    font-size:1rem;
+    border:none;
+}
+ .completed{
+    height: 20px;
+    width: 20px;
+    margin-top:3px;
+    margin-right: 3px;
+    background-color: green;
+}
